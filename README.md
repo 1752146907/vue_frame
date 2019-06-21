@@ -1,5 +1,5 @@
 # vue_frame
-这是一个自字搭建的VUE.js框架，包含PC端和H5端，仅供新搭建项目时参考
+这是一个自己搭建的VUE.js框架，包含PC端和H5端，仅供新搭建项目时参考
 
 注意事项： 
     H5：使用了有赞ui，参考文档：https://youzan.github.io/vant/#/zh-CN/intro
