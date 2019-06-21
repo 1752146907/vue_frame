@@ -1,0 +1,84 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.doctor-item {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 9;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #ffffff;
+}
+.chat-item-author-image{
+    width: 30px;
+    height: 30px;
+}
+.doctor-item-name {
+    flex: 1;
+    height: 30px;
+    padding-top: 4px;
+    padding-left: 4px;
+    font-size: 16px;
+}
+.doctor-item-name-category {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 4px;
+}
+.doctor-item-name-category-state {
+    font-size: 12px;
+    padding-top: 8px;
+    text-align: right;
+}
+
+.evaluate{
+    min-height:100vh;
+    padding: 60px 10px 10px 10px;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.evaluate-box{
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #e3e3e4;
+    box-sizing: border-box;
+}
+.evaluate-fooder{
+    padding: 10px;
+}
+.evaluate-fooder-item{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.evaluate-fooder-item-active{
+    color: #b20004;
+}
+.evaluate-fooder-item-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.evaluate-footer{
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+    background: #b20004;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}

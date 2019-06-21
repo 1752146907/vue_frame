@@ -1,0 +1,39 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.follow-item{
+    display: flex;
+    flex-direction: flex;
+    padding: 10px;
+    margin-bottom: 6px;
+    background: #ffffff;
+    border-top: 1px solid #f0eff4;
+    border-bottom: 1px solid #f0eff4;
+}
+.follow-item-author{
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+}
+.follow-item-content{
+    flex: 1;
+    overflow: hidden;
+}
+.follow-item-content-title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.follow-item-content-tab{
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: normal;
+}
+.follow-item-content-text{
+    font-size: 14px;
+}

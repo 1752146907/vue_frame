@@ -1,0 +1,48 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.archives{
+    margin-bottom: 60px;
+}
+.archives-item{
+    display: flex;
+    flex-direction: flex;
+    padding: 10px;
+    margin-bottom: 6px;
+    background: #ffffff;
+    border-top: 1px solid #f0eff4;
+    border-bottom: 1px solid #f0eff4;
+}
+.archives-item-author{
+    width: 50px;
+    height: 50px;
+    margin-right: 6px;
+}
+.archives-item-content{
+    flex: 1;
+    overflow: hidden;
+}
+.archives-item-content-title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.archives-item-content-text{
+    font-size: 14px;
+}
+.archives-footer{
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+    background: #b20004;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}

@@ -1,0 +1,68 @@
+
+.van-cell-text {
+    margin-right: 4px;
+}
+
+.main {
+    padding-bottom: 60px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.text-truncate {
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dynamic {
+    padding: 10px 0px;
+    background: #ffffff;
+    border-top: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.dynamic-title {
+    text-align: center;
+    font-size: 14px;
+}
+
+.dynamic-body {
+    height: 278px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.dynamic-item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.dynamic-item:last-child {
+    border-bottom: none;
+}
+
+.dynamic-item-author {
+    width: 20px;
+    height: 20px;
+}
+
+.dynamic-item-name {
+    width: 60px;
+    padding-left: 4px;
+}
+
+.dynamic-item-content {
+    flex: 1;
+}
+
+.dynamic-item-time {
+    width: 90px;
+    text-align: right;
+}

@@ -1,0 +1,23 @@
+
+.header-top{
+    height: 160px;
+    text-align: center;
+    padding-top: 40px;
+    background: #b20004;
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+.header-top-author{
+    width: 66px;
+    height: 66px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+}
+.header-top-author-name{
+    line-height: 28px;
+    font-weight: bold;
+}
+.header-top-author-school{
+}

@@ -1,0 +1,117 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.encourage{
+    height: 100vh;
+    background: #ffffff;
+}
+
+.header-top {
+    background-color: #ffffff;
+    padding: 10px 10px 0px 10px;
+}
+.header-top-content {
+    text-align: center;
+    padding: 26px 4px;
+    border-bottom: 1px solid #f0eff4;
+}
+.doctor-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.doctor-name {
+    font-size: 16px;
+    display: block;
+}
+.doctor-desc {
+    font-size: 14px;
+    color: #c95e78;
+}
+.give-money {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.give-money-title {
+    color: #626262;
+}
+.give-money-box {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+.give-money-item-box {
+    width: 100px;
+}
+.give-money-item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b20004;
+    border-radius: 50%;
+    margin-left: 12px;
+    color: #b20004;
+}
+.give-money-item-active {
+    background: #b20004;
+    color: #ffffff
+}
+.give-money-item-text {
+    display: block;
+    padding-top: 14px;
+}
+.give-money-item-desc {
+    margin-top: 10px;
+    display: block;
+    color: #626262;
+}
+.give-money-item-desc-active{
+    color: #b20004
+}
+.submit {
+    width: 300px;
+    margin: 10px auto;
+    color: #ffffff;
+    padding: 6px 0px;
+    background-color: #b20004;
+}
+.give-money-desc {
+    color: #626262;
+    padding-top: 4px;
+}
+.mind-list-wall {
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.mind-list-wall-title {
+    padding: 10px 16px;
+    border-bottom: 1px solid #f0eff4;
+}
+.mind-list-item {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #f0eff4;
+}
+.reward-name {
+    color: #626262;
+}
+.reward-img {
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+    vertical-align:top;
+}
+.reward-price {
+    margin-left: 4px;
+    color: #ff6133;
+}
+.reward-time{
+    position: absolute;
+    right: 10px;
+    color: #626262
+}
