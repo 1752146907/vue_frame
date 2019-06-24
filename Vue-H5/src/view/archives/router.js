@@ -6,14 +6,26 @@ import Simple from '../archives/simple';
 
 export default [{
     path: '/archives/index',
-    component: Index
+    component: Index,
+    meta: {
+        requireAuth: true,            // 添加该字段，表示进入这个路由是需要登录的
+    }
 }, {
     path: '/archives/add',
-    component: Add
+    component: Add,
+    meta: {
+        requireAuth: true,            // 添加该字段，表示进入这个路由是需要登录的
+    }
 }, {
     path: '/archives/modify',
-    component: Modify
+    component: Modify,
+    meta: {
+        requireAuth: true,            // 添加该字段，表示进入这个路由是需要登录的
+    }
 }, {
     path: '/archives/simple',
-    component: Simple
+    component: Simple,
+    meta: {
+        requireAuth: true,            // 添加该字段，表示进入这个路由是需要登录的
+    }
 }];

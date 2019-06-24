@@ -1,0 +1,7 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

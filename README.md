@@ -10,3 +10,4 @@
 基于Vue-cli 3.0手脚架搭建，项目本地预览：npm install -g serve	// 安装
 
                                      serve -s dist		    // 运行 给出的是预览地址
+

@@ -7,6 +7,8 @@ import Main from './view/main.vue';
 import './font/iconfont.css';
 import './css/style.css';
 
+import storage from './common/storage.js';
+
 Vue.config.productionTip = false;
 
 Vue.use(Router);
@@ -23,12 +25,20 @@ var router = new Router({
 
 var homePath = '/home/index';
 router.beforeEach((to, from, next) => {
-	if (to.path == homePath) {
-		next();
-	} if (to.path == '/') {
+	if (to.path == '/') {            //默认跳到首页
 		next({
 			path: homePath
 		});
+	}
+
+	if(to.meta.requireAuth) {
+		if (storage.getToken()) {            //有token,或者token未过期，跳过登录
+			next();
+		} else {
+			next('/login');      //没有登陆过，或者token 过期，跳转到登录页
+		}
+	} else {                           //不需要跳转，直接往下走
+		next();
 	}
 
 	next();
