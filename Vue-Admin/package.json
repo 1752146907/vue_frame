@@ -1,0 +1,24 @@
+{
+  "name": "ChuangShi-ES-Admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "image-compressor.js": "^1.1.4",
+    "iview": "^3.2.1",
+    "moment": "^2.23.0",
+    "reqwest": "^2.0.5",
+    "vue": "^2.5.21",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^3.2.0",
+    "babel-plugin-import": "^1.11.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

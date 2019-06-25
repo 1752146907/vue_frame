@@ -1,0 +1,99 @@
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 19px 20px 20px 20px;
+}
+
+.breadcrumb {
+    width: 100%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-margin {
+    margin-right: 8px;
+}
+
+.title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    top: 97px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+.content {
+    position: relative;
+    margin: 20px;
+}
+
+.tab {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+}
+
+.tab-margin-top {
+    margin-top: 20px;
+}
+
+.tab-title {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0px 20px;
+}
+
+.tab-card {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 15px 20px;
+    padding: 30px;
+    background-color: #F5F5F5;
+}
+
+.tab-content {
+    margin: 15px 20px;
+    padding: 30px;
+}
+
+.tab-form {
+    padding: 15px 20px;
+}
+
+.tab-form-row {
+    padding: 15px 0px;
+}
+
+.tab-table {
+    padding: 20px;
+}
+
+.tab-table-page {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.delete-title {
+    color: #f60;
+    text-align: center;
+}
+
+.delete-content {
+    text-align: center;
+}

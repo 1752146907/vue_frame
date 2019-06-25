@@ -1,0 +1,88 @@
+.body {
+    width: 100%;
+    height: 100%;
+    background: #f0f2f5;
+    background: url("image/login-background.jpg") no-repeat 50%;
+}
+
+.mask{
+    position: absolute !important;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: #ffffff;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.window {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    margin-left: -195px;
+    margin-top: -200px;
+    width: 390px;
+    z-index: 7;
+}
+
+.window-main {
+    padding: 20px 20px 1px 20px;
+}
+
+.ivu-input-wrapper {
+    display: block;
+    margin: 0 auto;
+}
+
+.ivu-input-prefix, .ivu-input-suffix {
+    width: 32px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 1;
+}
+
+.content-label-input {
+    margin-top: 14px;
+}
+
+.content-label-title {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-label-btn {
+    font-size: 16px;
+}
+
+.content-label-check {
+    display: block;
+    color: #e83634;
+    font-size: 14px;
+    margin-top: 26px;
+    margin-right: 316px;
+}
+
+.code-img{
+    width: 100%;
+    height: 36px;
+    cursor: pointer;
+}
+
+.form-row {
+    padding: 0px 0px 15px 0px;
+}
+
+.register {
+    font-size: 16px;
+    color: #2d8cf0;
+}
+
+.indicator {
+    font-size: 30px;
+}

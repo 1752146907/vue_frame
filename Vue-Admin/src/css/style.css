@@ -1,0 +1,88 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div, form, img, ul, ol, li, dl, dt, dd, p, tr, td, body, strong, span, pre, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0px;
+    max-width: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+a, area {
+    blr: expression(this.onFocus=this.blur())
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ivu-form-item {
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.ivu-table:after {
+    background-color: transparent !important;
+}
+
+.ivu-table-wrapper {
+    border: 0px solid #dcdee2 !important;
+}
+
+.ivu-table-border td, .ivu-table-border th {
+    border-right-width: 0px !important;
+}
+
+.ivu-page-options-sizer {
+    margin-right: 0px !important;
+}
+
+.ivu-spin-fix .ivu-spin-main {
+    top: 58px !important;
+}
+
+.ivu-upload-drag, .ivu-upload-drag:hover{
+    border: none;
+}
+
+.ql-editor{
+    height: 500px !important;
+}
+
+.ivu-input-number {
+    width: 100% !important;
+}

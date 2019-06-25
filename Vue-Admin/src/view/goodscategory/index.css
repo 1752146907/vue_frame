@@ -1,0 +1,148 @@
+
+
+
+.not-data {
+    text-align: center;
+    padding: 20px 0px;
+    color: #515a6e;
+    font-size: 14px;
+    border-bottom: 1px solid #e8eaec;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 19px 20px 20px 20px;
+}
+
+.breadcrumb {
+    width: 100%;
+}
+
+.action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-margin {
+    margin-right: 8px;
+}
+
+.title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    top: 97px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+.content {
+    position: relative;
+    margin: 20px;
+}
+
+.tab {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+}
+
+.tab-margin-top {
+    margin-top: 20px;
+}
+
+.tab-title {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0px 20px;
+}
+
+.tab-form {
+    padding: 20px;
+}
+
+.tab-form-row {
+    padding-bottom: 0px;
+}
+
+.tab-table {
+    padding: 20px;
+}
+
+.tab-table-page {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.delete-title {
+    color: #f60;
+    text-align: center;
+}
+
+.delete-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.lrz-table-title{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 60px;
+    background: #f8f8f9;
+    border-bottom: 1px solid #e8eaec;
+}
+.lrz-table-title-item{
+    color: #515a6e;
+    font-size: 14px;
+    flex: 1;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.lrz-table-body-box1{
+    height: 60px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 60px;
+    border-bottom: 1px solid #e8eaec;
+}
+.lrz-table-body-item{
+    flex: 1;
+    padding-left: 10px;
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.lrz-table-body-item-img{
+    width: 40px;
+    margin-top: 10px;
+}
+.lrz-table-body-box2-content{
+    height: 60px;
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+    line-height: 60px;
+    border-bottom: 1px solid #e8eaec;
+}
+.lrz-table-body-box2-content > .lrz-table-body-item:nth-child(1) {
+    padding-left: 30px;
+}
