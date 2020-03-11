@@ -127,6 +127,7 @@
         }),
         created() {
 
+console.log(this.$storage)
         },
         methods: {
             handleChat: function () {

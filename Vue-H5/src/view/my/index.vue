@@ -45,7 +45,6 @@
 
 		}),
 		created () {
-
 		},
 		methods: {
             handleArchives: function() {

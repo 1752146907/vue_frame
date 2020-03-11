@@ -9,11 +9,22 @@ import Main from './view/main.vue';
 import './font/iconfont.css';
 import './css/style.css';
 
+import axios from "axios";                                  // axios请求
+import VueClipboard from 'vue-clipboard2'; 				 	// 文件拷贝插件
+
 import storage from './common/storage.js';
+
+Vue.prototype.$storage = storage;				// 本地存储
 
 Vue.config.productionTip = false;
 
-Vue.use(Vant);
+Vue.use(VueClipboard);  // 文件拷贝插件
+Vue.use(Vant);          // 引入有赞UI
+
+Vue.prototype.axios = axios;		    	    // 另一个请求,仅在极验接口使用
+// 导入极验
+require('@/common/gt.js');
+Vue.prototype.$initGeet=initGeetest;
 
 Vue.use(Router);
 var routes = [];
